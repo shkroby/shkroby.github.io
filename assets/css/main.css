@@ -316,6 +316,23 @@ summary:focus-visible {
   margin: 0 0 6px;
 }
 
+/* Orange badge beside a paper title (papers.yaml `flag`), e.g. "AI + human generated". */
+.entry-flag {
+  display: inline-block;
+  vertical-align: 0.15em;
+  margin-left: 6px;
+  padding: 1px 8px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: #9a4300;            /* 5.5:1 on the badge fill */
+  background: #ffe6c7;
+  border: 1px solid #f08a24;
+  border-radius: 999px;
+}
+
 .entry-meta,
 .entry-venue {
   font-size: 14px;

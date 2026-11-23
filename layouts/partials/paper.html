@@ -1,7 +1,7 @@
 {{- /* Expects dict "p" (paper map) and "page" (for RenderString). */ -}}
 {{- $p := .p }}{{ $page := .page }}
 <article class="entry">
-  <h4 class="entry-title">{{ $p.title }}</h4>
+  <h4 class="entry-title">{{ $p.title }}{{ with $p.flag }} <span class="entry-flag">{{ . }}</span>{{ end }}</h4>
   {{- $n := len ($p.coauthors | default slice) }}
   <p class="entry-meta">
     {{- if $n }}With {{ range $i, $a := $p.coauthors -}}

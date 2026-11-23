@@ -4,10 +4,27 @@
 #
 # Fields (all optional except title):
 #   title, year, venue (italicised), note (Markdown), arxiv (id only), pdf, url,
-#   coauthors (list of {name, url}), abstract (Markdown + LaTeX with $...$)
+#   coauthors (list of {name, url}), abstract (Markdown + LaTeX with $...$),
+#   flag (short label shown as an orange badge next to the title)
 # ---------------------------------------------------------------------------
 
 papers:
+  # TEMPORARY ENTRY: not yet on arXiv; PDF hosted at static/papers/.
+  - title: Free energy of the bipartite random assignment problem
+    year: 2026
+    flag: AI + human generated
+    pdf: papers/free-energy-assignment.pdf
+    abstract: >-
+      We compute the limiting free energy of the bipartite random assignment
+      problem for every pseudodimension $d > 0$ and every inverse temperature
+      $\lambda > 0$ at the scale $n^{1/d}$. We show that the limit is given by
+      a rigorous replica-symmetric formula determined by the unique solution of
+      a recursive distributional equation on a Poisson-weighted infinite tree,
+      confirming conjectures of Aldous and Talagrand. As a consequence, for a
+      fixed inverse temperature $\lambda > 0$, we deduce exponential
+      concentration of the cost of a Gibbs assignment and determine the
+      exponential growth rate of the number of near-optimal assignments.
+
   - title: An optimal constant for vector balancing with permutations
     year: 2026
     arxiv: "2610.02127"
