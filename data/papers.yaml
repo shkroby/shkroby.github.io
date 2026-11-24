@@ -13,7 +13,6 @@ papers:
   # TEMPORARY ENTRY.
   - title: Free energy of the bipartite random assignment problem
     year: 2026
-    flag: AI + human generated
     arxiv: "2611.30801"
     lean: https://github.com/shkroby/free-energy-assignment-lean
     abstract: >-
