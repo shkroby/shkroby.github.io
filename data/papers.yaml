@@ -10,11 +10,11 @@
 # ---------------------------------------------------------------------------
 
 papers:
-  # TEMPORARY ENTRY: not yet on arXiv; PDF hosted at static/papers/.
+  # TEMPORARY ENTRY.
   - title: Free energy of the bipartite random assignment problem
     year: 2026
     flag: AI + human generated
-    pdf: papers/free-energy-assignment.pdf
+    arxiv: "2611.30801"
     lean: https://github.com/shkroby/free-energy-assignment-lean
     abstract: >-
       We compute the limiting free energy of the bipartite random assignment
