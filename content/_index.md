@@ -2,7 +2,7 @@
 title: Jacob Shkrob
 ---
 
-Hello! I am a PhD student at the **Courant Institute at NYU**, advised by [Jonathan Niles-Weed](https://www.jonathannilesweed.com/). My research lies at the intersection of high-dimensional probability, combinatorics, and statistics, with a focus on matching and permutation problems, robust statistics, convex analysis, and statistical physics.
+Hello! I am a PhD student at the **<a class="lilac" href="https://cims.nyu.edu/">Courant Institute at NYU</a>**, advised by [Jonathan Niles-Weed](https://www.jonathannilesweed.com/). My research lies at the intersection of high-dimensional probability, combinatorics, and statistics, with a focus on matching and permutation problems, robust statistics, convex analysis, and statistical physics.
 
 More recently, I have become interested in the mathematics of AI safety and alignment. I am an incoming [Iliad Fellow](https://www.iliad.ac/) and a recipient of a [BlueDot Impact Career Transition Grant](https://bluedot.org/programs/career-transition-grant).
 
